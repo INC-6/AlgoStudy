@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class Programmers_FullSearch {
 
     public static int[] main(String[] args) {
