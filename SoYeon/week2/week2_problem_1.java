@@ -14,6 +14,7 @@ class Solution {
 //                System.out.println(array[i]);
                 sortedArray[j] = array[i];
             }
+
             //정렬
             System.out.println("정렬");
             Arrays.sort(sortedArray);
