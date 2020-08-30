@@ -1,3 +1,5 @@
+package week1;
+
 public class week1_problem {
 
     static int num = 0;

@@ -1,3 +1,5 @@
+package week1;
+
 public class Programmers_Collatz {
     public int solution(long num) {
         int answer = 0;

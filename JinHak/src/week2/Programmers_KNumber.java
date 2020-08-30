@@ -1,8 +1,15 @@
-public class Programmers_FullSearch {
+package week2;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class Programmers_KNumber {
 
     public int[] solution(int[] array, int[][] commands) {
         int[] answer = new int[commands.length];
         String str = "";
+
 
         for(int i = 0 ; i < array.length; i++){
             str += String.valueOf(array[i]);
