@@ -35,36 +35,47 @@ public class week2_11 {
 
         for (int i = 0; i < stringArrayList.size(); i++) {
             if ("B".equals(stringArrayList.get(i))) {
-                countB ++;
+                countB++;
                 stringArrayList.remove(i);
+                System.out.println(stringArrayList.toString());
+                i = 0;
             }
             if ("A".equals(stringArrayList.get(i))) {
-                countA ++;
+                countA++;
                 stringArrayList.remove(i);
+                System.out.println(stringArrayList.toString());
+                i = 0;
+
             }
             if ("L".equals(stringArrayList.get(i))) {
-                countL ++;
+                countL++;
                 stringArrayList.remove(i);
                 i = 0;
+                System.out.println(stringArrayList.toString());
+
             }
             if ("O".equals(stringArrayList.get(i))) {
-                countO ++;
+                countO++;
                 stringArrayList.remove(i);
                 i = 0;
+                System.out.println(stringArrayList.toString());
+
             }
             if ("N".equals(stringArrayList.get(i))) {
-                countN ++;
+                countN++;
                 stringArrayList.remove(i);
+                System.out.println(stringArrayList.toString());
+                i = 0;
             }
-            if (countB > 0 && countA > 0 && countL >= 1 && countO >= 1 && countN > 0) {
+            if (countB > 0 && countA > 0 && countL > 1 && countO > 1 && countN > 0) {
                 System.out.println("BALLON get !! " + stringArrayList.toString());
                 countB = 0;
                 countA = 0;
                 countL = 0;
                 countO = 0;
                 countN = 0;
-                i =  0;
-                counter ++;
+                i = 0;
+                counter++;
             }
         }
 
