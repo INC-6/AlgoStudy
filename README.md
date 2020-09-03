@@ -12,3 +12,5 @@
 
 ## 3주차
 - 더맵게 (https://programmers.co.kr/learn/courses/30/lessons/42626)
+- 시저암호 (https://programmers.co.kr/learn/courses/30/lessons/12926)
+- week3_problem.png(11경력)
