@@ -1,8 +1,8 @@
-package com.company;
+package week1;
 
 import java.util.*;
 
-public class Main {
+class Main {
 
     public static void main(String[] args) {
         //테스트 값 생성
