@@ -1,8 +1,8 @@
-package com.company;
+package week2;
 
 import java.util.*;
 
-public class Main {
+class Main {
 
     public static void main(String[] args) {
         String[] arr = {

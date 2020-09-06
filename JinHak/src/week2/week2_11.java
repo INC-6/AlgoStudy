@@ -2,6 +2,7 @@ package week2;
 
 import java.util.ArrayList;
 
+
 public class week2_11 {
 
 
@@ -35,34 +36,27 @@ public class week2_11 {
             if ("B".equals(stringArrayList.get(i))) {
                 countB++;
                 stringArrayList.remove(i);
-                System.out.println(stringArrayList.toString());
                 i = 0;
             }
             if ("A".equals(stringArrayList.get(i))) {
                 countA++;
                 stringArrayList.remove(i);
-                System.out.println(stringArrayList.toString());
                 i = 0;
-
             }
             if ("L".equals(stringArrayList.get(i))) {
                 countL++;
                 stringArrayList.remove(i);
                 i = 0;
-                System.out.println(stringArrayList.toString());
-
             }
             if ("O".equals(stringArrayList.get(i))) {
+                if (countO > 0 ) i = 0;
                 countO++;
                 stringArrayList.remove(i);
                 i = 0;
-                System.out.println(stringArrayList.toString());
-
             }
             if ("N".equals(stringArrayList.get(i))) {
                 countN++;
                 stringArrayList.remove(i);
-                System.out.println(stringArrayList.toString());
                 i = 0;
             }
             if (countB > 0 && countA > 0 && countL > 1 && countO > 1 && countN > 0) {
