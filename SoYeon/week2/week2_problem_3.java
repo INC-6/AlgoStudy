@@ -27,8 +27,6 @@ public class Main {
 
         //타켓 스펠링 갯수 확인
         for(int i = 0, len = targetStr.length(); i < len; i++) {
-
-
             if(hm.get(targetStr.charAt(i)) != null) {
                 hm.put(targetStr.charAt(i), (char) (hm.get(targetStr.charAt(i)) + 1));
             } else {
@@ -58,6 +56,7 @@ public class Main {
 
         Set set2 = hm2.entrySet();
         for(Object obj : set2) {
+
             System.out.println(obj);
         }
 
