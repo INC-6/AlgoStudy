@@ -21,15 +21,21 @@ class Programmers_Caesar_Cipher {
 
         String result = "";
         int slength = s.length();
+        //A,Z
 
         for(int i = 0 ; i < slength; i++){
             char ch = s.charAt(i);
 
             //return boolean
+
             if(Character.isLowerCase(ch)){
+
                 ch = (char)((ch-'a' + n) % 26 + 'a');
+
             }else if(Character.isUpperCase(ch)){
+
                 ch = (char)((ch-'A' + n) % 26 + 'A');
+
             }
 
             result += ch;

@@ -22,13 +22,20 @@ public class week3_11 {
         int result = 0;
 
         for (int i = 0; i < arr.length; i++) {
+
             if (arr[i] > 0) { //배열의 값이 양수면,
+
                 for (int j = 0; j < arr.length; j++) {
+
                     if (arr[i] + arr[j] == 0) {
                         //A배열 두개 나옴 두개 중 큰거
+
                         if (arr[i] > result) result = arr[i];
+
                     }
+
                 }
+
             }
         }
 
