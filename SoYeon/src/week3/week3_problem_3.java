@@ -1,3 +1,5 @@
+package week3;
+
 import java.util.*;
 
 class test {
@@ -10,11 +12,10 @@ class test {
 
     public static int solution(int[] arr) {
         int answer = 0;
-        int temp = 0;
         for(int i : arr) {
             if(i > 0) {
                 for(int j : arr) {
-                    if(j < 0 && i == j*-1) {
+                    if(j < 0 && i == j*-1) {   
                         if(i > answer) answer = i;
                     }
                 }
