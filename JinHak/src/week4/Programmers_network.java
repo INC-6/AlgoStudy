@@ -1,4 +1,4 @@
-package week3;
+package week4;
 
 /*
 
@@ -15,7 +15,7 @@ n은 1 이상, 25이하인 자연수입니다.
 
 */
 
-class Programmers_Caesar_Cipher {
+class Programmers_network {
 
     public String main(String s, int n) {
 

@@ -14,3 +14,13 @@
 - 더맵게 (https://programmers.co.kr/learn/courses/30/lessons/42626)
 - 시저암호 (https://programmers.co.kr/learn/courses/30/lessons/12926)
 - week3_problem.png(11경력)
+
+## 4주차
+- 네트워크 (https://programmers.co.kr/learn/courses/30/lessons/43162)
+- 123 나라의 숫자 (https://programmers.co.kr/learn/courses/30/lessons/12899)
+- week4_problem.png(11경력)
+
+## 5주차
+- 단어변환 (https://programmers.co.kr/learn/courses/30/lessons/43163)
+- 
+- 
