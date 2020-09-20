@@ -24,3 +24,8 @@
 - 단어변환 (https://programmers.co.kr/learn/courses/30/lessons/43163) [Dfs/Bfs]
 - 문자열 내 마음대로 정렬하기 (https://programmers.co.kr/learn/courses/30/lessons/12915)
 - 5주차문제.png
+
+## 6주차
+- 여행경로 (https://programmers.co.kr/learn/courses/30/lessons/43164) [Dfs/Bfs]
+- 문자열 내 마음대로 정렬하기 (https://programmers.co.kr/learn/courses/30/lessons/12915)
+- 5주차문제.png
